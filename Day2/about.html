@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Soul of India Travels</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom style for logo */
+        .navbar-brand img {
+        height: 50px; /* Adjust this value as needed */
+        width: 50px; /* Ensure this matches the height */
+        border-radius: 50%; /* Makes the image circular */
+        object-fit: cover; /* Ensures the image scales properly within the circle */
+        }
+
+
+        /* Center the navbar brand */
+        .navbar {
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar .container-fluid {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .navbar-collapse {
+            flex-grow: 1;
+            justify-content: flex-end;
+        }
+
+        /* About section styling */
+        .about-section {
+            padding: 80px 0;
+            background-color: #f0f0f0;
+        }
+
+        .about-section h1 {
+            font-size: 2.8rem;
+            text-align: center;
+            margin-bottom: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #333;
+        }
+
+        .about-section p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            text-align: justify;
+            color: #666;
+            margin-bottom: 40px;
+        }
+
+        .about-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+
+        .about-section h2 {
+            font-size: 2.2rem;
+            font-family: 'Times New Roman', Times, serif;
+            margin-top: 50px;
+            color: rgb(171, 30, 30);
+        }
+
+        /* Mission section */
+        .mission-container {
+            margin-top: 50px;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .mission-container p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+
+        /* Services section */
+        .service-item {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            transition: transform 0.3s;
+        }
+
+        .service-item:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-item h4 {
+            font-size: 1.7rem;
+            color: rgb(171, 30, 30);
+            margin-bottom: 20px;
+        }
+
+        .service-item p {
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .service-item i {
+            font-size: 3rem;
+            color: rgb(171, 30, 30);
+            margin-bottom: 15px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        /* Footer Styling */
+        .footer {
+            background-color: rgb(171, 30, 30);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(171, 30, 30);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-family: Helvetica Neue">
+                <img src="https://png.pngtree.com/template/20220427/ourmid/pngtree-india-travel-symbol-of-indian-elephant-with-ornament-blanket-and-vector-image_1234935.jpg" alt="Logo">
+                Soul of India Travels
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="states.html">States</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <div class="about-section">
+        <div class="container">
+            <h1>Welcome to Soul of India Travels</h1>
+            <p>At Soul of India Travels, we are passionate about showcasing the rich cultural heritage, diverse landscapes, and vibrant traditions of India. Whether you’re planning a spiritual retreat, a cultural journey, or an adventurous expedition, we have something special for every traveler. Our goal is to provide curated experiences that allow you to connect with the true soul of India.</p>
+            <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Taj Mahal" class="img-fluid">
+
+            <div class="mission-container">
+                <h2>Our Mission</h2>
+                <p>We strive to offer a seamless travel experience, combining luxurious comfort with authentic cultural encounters. From the majestic Himalayan mountains to the golden beaches of Goa, from Rajasthan’s royal palaces to the spiritual sanctuaries of Varanasi — we bring you closer to the heart of India. Our personalized services and expertise ensure that every journey is extraordinary.</p>
+            </div>
+
+            <!-- Our Services Section -->
+            <h2>Our Services</h2>
+            <div class="row row-cols-lg-4 g-3">
+                <div class="col-md-4 service-item">
+                    <div class="service-icon d-flex justify-content-center align-items-center mb-4">
+                        <i class="bi bi-geo-alt" style="font-size: 3rem; color: #ab1e1e;"></i>
+                    </div>
+                    <h4 class="text-center">Personalized Travel Itineraries</h4>
+                    <p>We craft custom itineraries to suit your interests, whether you’re seeking adventure, relaxation, culture, or spirituality. Let us curate your perfect trip.</p>
+                </div>
+                <div class="col-md-4 service-item">
+                    <div class="service-icon d-flex justify-content-center align-items-center mb-4">
+                        <i class="bi bi-briefcase" style="font-size: 3rem; color: #ab1e1e;"></i>
+                    </div>
+                    <h4 class="text-center">Luxury Travel Experiences</h4>
+                    <p>From 5-star accommodations to private tours, we provide an unmatched luxury travel experience that will leave you feeling pampered and rejuvenated.</p>
+                </div>
+                <div class="col-md-4 service-item">
+                    <div class="service-icon d-flex justify-content-center align-items-center mb-4">
+                        <i class="bi bi-people" style="font-size: 3rem; color: #ab1e1e;"></i>
+                    </div>
+                    <h4 class="text-center">Group & Corporate Tours</h4>
+                    <p>Whether you're organizing a corporate retreat, family reunion, or group tour, we have the resources and expertise to handle any size group with seamless precision.</p>
+                </div>
+                <!-- Additional Services -->
+                <div class="col-md-4 service-item">
+                    <div class="service-icon d-flex justify-content-center align-items-center mb-4">
+                        <i class="bi bi-briefcase-fill" style="font-size: 3rem; color: #ab1e1e;"></i>
+                    </div>
+                    <h4 class="text-center">Adventure Tours</h4>
+                    <p>Explore India's vast landscapes through thrilling adventure tours, from trekking in the Himalayas to water sports on Goa's beaches.</p>
+                </div>
+                <div class="col-md-4 service-item">
+                    <div class="service-icon d-flex justify-content-center align-items-center mb-4">
+                        <i class="bi bi-ship" style="font-size: 3rem; color: #ab1e1e;"></i>
+                    </div>
+                    <h4 class="text-center">Cruise & River Tours</h4>
+                    <p>Set sail on India's iconic rivers and seas, experiencing breathtaking views and luxurious river cruises across the country.</p>
+                </div>
+                <div class="col-md-4 service-item">
+                    <div class="service-icon d-flex justify-content-center align-items-center mb-4">
+                        <i class="bi bi-camera" style="font-size: 3rem; color: #ab1e1e;"></i>
+                    </div>
+                    <h4 class="text-center">Photography Tours</h4>
+                    <p>Capture the essence of India's beauty with our curated photography tours, led by experienced photographers who know the best spots.</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Soul of India Travels. All Rights Reserved.</p>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

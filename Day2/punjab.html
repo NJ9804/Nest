@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punjab Tourism - Soul of India Travels</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles for the page */
+        .navbar-brand img {
+    height: 50px; /* Adjust this value as needed */
+    width: 50px; /* Ensure this matches the height */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image scales properly within the circle */
+}
+
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar .container-fluid {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .navbar-collapse {
+            flex-grow: 1;
+            justify-content: flex-end;
+        }
+
+        .hero-section {
+            background-image: url('https://images.unsplash.com/photo-1583821017783-4333717df070?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .intro-section {
+            padding: 60px 0;
+            background-color: #f8f9fa;
+        }
+
+        .intro-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: rgb(171, 30, 30);
+        }
+
+        .intro-section p {
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .attractions-section .card {
+            margin: 20px 0;
+        }
+
+        .gallery-section {
+            background-color: #f8f9fa;
+            padding: 60px 0;
+        }
+
+        .gallery-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            text-align: center;
+            color: rgb(171, 30, 30);
+        }
+
+        .gallery-section .img-thumbnail {
+            border: none;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(171, 30, 30);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://png.pngtree.com/template/20220427/ourmid/pngtree-india-travel-symbol-of-indian-elephant-with-ornament-blanket-and-vector-image_1234935.jpg" alt="Logo">
+                Soul of India Travels
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="states.html">States</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <h1>Explore the Vibrant Culture of Punjab</h1>
+    </div>
+
+    <!-- Introduction Section -->
+    <div class="intro-section">
+        <div class="container">
+            <h2>Welcome to Punjab</h2>
+            <p>Punjab, the land of five rivers, is known for its rich culture, history, and the warmth of its people. From the iconic Golden Temple in Amritsar to the vibrant fields of the rural heartland, Punjab is a place that offers a deep connection to its heritage. With its beautiful cities, lively culture, and delicious cuisine, Punjab is the perfect destination for anyone seeking an immersive experience in the heart of India.</p>
+        </div>
+    </div>
+
+    <!-- Major Attractions Section -->
+<div class="attractions-section">
+    <div class="container">
+        <h2>Major Attractions</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxF3vupqic9XjaGkZTVE_a5S8aFhnc1ilWvg&s" class="card-img-top attraction-img" alt="Golden Temple">
+                    <div class="card-body">
+                        <h5 class="card-title">Golden Temple</h5>
+                        <p class="card-text">The holiest shrine of Sikhism located in Amritsar, known for its magnificent architecture and spiritual significance.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://www.researchgate.net/publication/330326114/figure/fig1/AS:714058101706752@1547256126278/ew-from-walls-of-the-inner-fort-Qila-Androon-on-the-entrance-gate-and-square-of.png" class="card-img-top attraction-img" alt="Qila Androon">
+                    <div class="card-body">
+                        <h5 class="card-title">Qila Androon</h5>
+                        <p class="card-text">Qila Androon, a majestic fort in the heart of Patiala, stands as a testament to the rich history and vibrant culture of Punjab.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://baradarigardenspatiala.in/wp-content/uploads/2024/03/neemrana-1.webp" class="card-img-top attraction-img" alt="Patiala Garden">
+                    <div class="card-body">
+                        <h5 class="card-title">Patiala Garden</h5>
+                        <p class="card-text">A beautiful garden in Patiala known for its lush greenery and peaceful ambiance, perfect for relaxation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Gallery Section -->
+<div class="gallery-section">
+    <div class="container">
+        <h2>Gallery</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://static.toiimg.com/photo/65688151.cms" class="img-thumbnail gallery-img" alt="Punjabi Culture">
+            </div>
+            <div class="col-md-4">
+                <img src="https://i0.wp.com/www.tusktravel.com/blog/wp-content/uploads/2022/07/Golden-Temple-Amritsar-Punjab.jpg?fit=1024%2C683&ssl=1" class="img-thumbnail gallery-img" alt="Amritsar Lake">
+            </div>
+            <div class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnE2Y4pXVMybVv92nbl9iEg9I_6X8d6V30wA&s" class="img-thumbnail gallery-img" alt="Punjabi Dance">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<style>
+    /* Ensures uniform size for Major Attractions images */
+    .attraction-img {
+        width: 100%;        /* Full width of the card */
+        height: 250px;      /* Fixed height for uniformity */
+        object-fit: cover;  /* Crop while maintaining aspect ratio */
+    }
+
+    /* Ensures uniform size for Gallery images */
+    .gallery-img {
+        width: 100%;        /* Full column width */
+        height: 250px;      /* Fixed height */
+        object-fit: cover;  /* Maintain aspect ratio */
+    }
+</style>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

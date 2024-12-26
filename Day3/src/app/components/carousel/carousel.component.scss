@@ -1,0 +1,91 @@
+.carousel {
+    position: absolute;
+    width: 100%;
+    height: 520px; // Increased height for better visual appeal
+    overflow: hidden;
+    border-radius: 10px; // Soft corners for the carousel
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); // Subtle shadow for depth
+  }
+  
+  .carousel-slide {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+    border-radius: 10px; // Rounded corners for the images
+    transition: transform 0.3s ease; // Smooth zoom effect on hover
+  }
+  
+  .carousel-slide img:hover {
+    transform: scale(1.05); // Zoom in slightly on hover
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 24px; // Increased font size for better visibility
+    font-weight: bold; // Bold caption text
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); // Stronger text shadow for contrast
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .carousel-caption:hover {
+    color: #ffcc00; // Change caption color on hover for interactivity
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Add navigation arrows */
+  .carousel-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+  
+  .carousel-nav button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-nav button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .carousel {
+      height: 250px;
+    }
+  
+    .carousel-caption {
+      font-size: 18px;
+      bottom: 10px;
+    }
+  }
+  

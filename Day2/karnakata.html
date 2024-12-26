@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karnataka Tourism - Soul of India Travels</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles for the page */
+        .navbar-brand img {
+         height: 50px; 
+        width: 50px; 
+        border-radius: 50%; 
+        object-fit: cover; 
+        }
+
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar .container-fluid {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .navbar-collapse {
+            flex-grow: 1;
+            justify-content: flex-end;
+        }
+
+        .hero-section {
+            background-image: url('https://plus.unsplash.com/premium_photo-1697730337612-8bd916249e30?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            color: rgb(152, 46, 46);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .intro-section {
+            padding: 60px 0;
+            background-color: #f8f9fa;
+        }
+
+        .intro-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: rgb(171, 30, 30);
+        }
+
+        .intro-section p {
+            font-size: 1.1rem;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .attractions-section .card {
+            margin: 20px 0;
+        }
+
+        .gallery-section {
+            background-color: #f8f9fa;
+            padding: 60px 0;
+        }
+
+        .gallery-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            text-align: center;
+            color: rgb(171, 30, 30);
+        }
+
+        .gallery-section .img-thumbnail {
+            border: none;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(171, 30, 30);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://png.pngtree.com/template/20220427/ourmid/pngtree-india-travel-symbol-of-indian-elephant-with-ornament-blanket-and-vector-image_1234935.jpg" alt="Logo">
+                Soul of India Travels
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="states.html">States</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+        <h1>Explore the Rich Heritage of Karnataka</h1>
+    </div>
+
+    <!-- Introduction Section -->
+    <div class="intro-section">
+        <div class="container">
+            <h2>Welcome to Karnataka</h2>
+            <p>Karnataka, known for its historical landmarks, serene landscapes, and vibrant culture, offers a unique experience for every traveler. From the majestic ruins of Hampi to the lush coffee plantations of Coorg, Karnataka is a land full of natural beauty and historical significance. Whether you're an adventure seeker or a history buff, Karnataka has something to offer everyone.</p>
+        </div>
+    </div>
+
+    <!-- Major Attractions Section -->
+<div class="attractions-section">
+    <div class="container">
+        <h2>Major Attractions</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://plus.unsplash.com/premium_photo-1697729606469-027395aadb6f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top attraction-img" alt="Bangalore Palace">
+                    <div class="card-body">
+                        <h5 class="card-title">Bangalore Palace</h5>
+                        <p class="card-text">A grand palace in Bangalore, known for its Tudor-style architecture and beautiful interiors, offering a glimpse into the royal history of Karnataka.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://plus.unsplash.com/premium_photo-1697730504977-26847b1f1f91?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top attraction-img" alt="Vijaya Vitthala Temple">
+                    <div class="card-body">
+                        <h5 class="card-title">Vijaya Vitthala Temple</h5>
+                        <p class="card-text">A UNESCO World Heritage site located in Hampi, famous for its iconic stone chariot and intricate architecture that reflects the glory of the Vijayanagara Empire.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1710891437634-85ad1b1f0a88?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top attraction-img" alt="Coorg">
+                    <div class="card-body">
+                        <h5 class="card-title">Coorg</h5>
+                        <p class="card-text">A picturesque hill station known for its lush coffee plantations, waterfalls, and scenic landscapes, making it a perfect getaway for nature lovers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Gallery Section -->
+<div class="gallery-section">
+    <div class="container">
+        <h2>Gallery</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://images.unsplash.com/photo-1733061501530-6a598e634f61?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-thumbnail gallery-img" alt="Chitradurga Fort">
+            </div>
+            <div class="col-md-4">
+                <img src="https://www.holidayszone.in/images/sightseeing-places/bangalore/cubbon-park-bangalore-entryfee-timings-tour-package-header.jpg" class="img-thumbnail gallery-img" alt="Cubbon Park">
+            </div>
+            <div class="col-md-4">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7GBEwESWlKxhPGVLzlcJ4WAMBIqHte-Hdm_7CFmIiex2CD_bbW3PDL6Wb7Ph5IYu4NgDITMGWlyUWqXmKMK_FXB2z0kp9IEaG-0VKC-dt-PEImxO-LcAJHV-b4laqvI0Z6RfFUumPnhmk/s1600/SBG.jpg" class="img-thumbnail gallery-img" alt="Shravanabelagola">
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /* Ensures uniform size for Major Attractions images */
+    .attraction-img {
+        width: 100%;        /* Full width of the card */
+        height: 250px;      /* Fixed height for uniformity */
+        object-fit: cover;  /* Crop while maintaining aspect ratio */
+    }
+
+    /* Ensures uniform size for Gallery images */
+    .gallery-img {
+        width: 100%;        /* Full column width */
+        height: 250px;      /* Fixed height */
+        object-fit: fill;  /* Maintain aspect ratio */
+    }
+</style>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+.navbar {
+    background-color: #ffffff; // Base background color for the navbar
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Subtle shadow for depth
+    padding: 0.5rem 1rem;
+  
+    .logo img {
+      height: 50px; // Adjust the logo size
+      width: auto;
+      margin-right: 1rem;
+    }
+  
+    .navbar-brand {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #a32e0e; // Eye-catching color for the brand name
+      text-transform: uppercase;
+      &:hover {
+        color: #d64c1a;
+        text-decoration: none;
+      }
+    }
+  
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          font-family: 'Oswald', sans-serif;
+          font-size: 1rem;
+          font-weight: 500;
+          color: #333; // Neutral link color
+          margin: 0 0.5rem;
+          text-transform: capitalize;
+          position: relative;
+  
+          &.active {
+            color: #de7a17; // Highlight the active link
+            font-weight: bold;
+          }
+  
+          &:hover {
+            color: #e67e22;
+            text-decoration: none;
+          }
+  
+          // Add underline animation on hover
+          &::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 2px;
+            background: #f39c12;
+            transition: width 0.3s ease;
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+          }
+  
+          &:hover::after {
+            width: 100%;
+          }
+        }
+      }
+    }
+  
+    .navbar-toggler {
+      border: none;
+  
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      }
+  
+      .navbar-toggler-icon {
+        background-image: url('data:image/svg+xml;charset=UTF8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23333" viewBox="0 0 30 30"><path d="M3 12h24v2H3zM3 6h24v2H3zM3 18h24v2H3z"/></svg>');
+      }
+    }
+  
+    .collapse {
+      justify-content: flex-end;
+    }
+  
+    @media (max-width: 768px) {
+      .navbar-nav {
+        .nav-item {
+          margin: 0.5rem 0;
+  
+          .nav-link {
+            font-size: 1.2rem;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  
